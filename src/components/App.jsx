@@ -33,7 +33,6 @@ export const App = () => {
     setFilter(evt.currentTarget.value);
   };
 
-  //поиск контакта по введенному filter слову в input
   const serchContact = () => {
     const normalizeFilter = filter.toLowerCase();
     setContactsFilter(
